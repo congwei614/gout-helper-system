@@ -5,11 +5,9 @@
  */
 import { Layout } from 'antd';
 import type { BasicProps } from 'antd/es/layout/layout';
-import  { FC } from 'react';
-const {Header } = Layout;
-const LayoutHeader:FC<BasicProps> = (props)=> {
-    return (
-      <Header {...props}>Header</Header>
-    )
-}
-export default LayoutHeader
+import { FC } from 'react';
+const { Header } = Layout;
+const LayoutHeader: FC<BasicProps> = (props) => {
+  return <Header {...props}>Header</Header>;
+};
+export default LayoutHeader;

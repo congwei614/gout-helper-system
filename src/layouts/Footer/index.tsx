@@ -5,11 +5,9 @@
  */
 import { Layout } from 'antd';
 import type { BasicProps } from 'antd/es/layout/layout';
-import  { FC } from 'react';
-const {Footer } = Layout;
-const LayoutFooter:FC<BasicProps> = (props)=> {
-    return (
-      <Footer {...props}>Footer</Footer>
-    )
-}
-export default LayoutFooter
+import { FC } from 'react';
+const { Footer } = Layout;
+const LayoutFooter: FC<BasicProps> = (props) => {
+  return <Footer {...props}>Footer</Footer>;
+};
+export default LayoutFooter;
