@@ -10,7 +10,7 @@
     "lint:fix": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
     "preview": "vite preview",
     "commit": "git add .&& git-cz",
-    "release": "standard-version",
+    "release": "standard-version  && git push --follow-tags",
     "prepare": "husky install"
   },
   "config": {
